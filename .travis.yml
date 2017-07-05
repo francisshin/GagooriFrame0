@@ -1,6 +1,6 @@
 osx_image: xcode8.3
-Language: objective-c
-Sudo: required
+language: objective-c
+sudo: required
 
 script:
    - xcodebuild clean build test
